@@ -96,13 +96,14 @@
       </div>
     </section>
 
-   <!-- Gallery Section -->
+ <!-- Gallery Section -->
 <section id="gallery" class="mb-20">
   <h2 class="text-4xl font-bold text-center text-gray-900 mb-10">Wedding & Candid Portfolio</h2>
+  
   <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
 
-    <!-- Wedding Photography Thumbnail -->
-    <a href="#wedding-gallery">
+    <!-- Wedding Photography -->
+    <a href="javascript:void(0);" onclick="document.getElementById('wedding-gallery').classList.toggle('hidden')">
       <div class="bg-white rounded-xl shadow-lg overflow-hidden group hover:shadow-2xl transform hover:-translate-y-2 transition-transform duration-300">
         <img src="https://raw.githubusercontent.com/Mohanakarthick2001/wedding-thumbnail/main/Wedding.jpg" 
              alt="Wedding Photography" 
@@ -111,53 +112,52 @@
       </div>
     </a>
 
-    <!-- Pre & Post Wedding Thumbnail -->
-    <div class="bg-white rounded-xl shadow-lg overflow-hidden group hover:shadow-2xl transform hover:-translate-y-2 transition-transform duration-300">
-      <img src="https://raw.githubusercontent.com/Mohanakarthick2001/pre-and-post-thumbnail/main/pre%20post%20thumbnail.jpg" 
-           alt="Pre & Post Photography" 
-           class="w-full h-48 object-cover transition-transform duration-300 transform group-hover:scale-110">
-      <div class="p-4 text-center font-semibold text-lg text-gray-700">Pre & Post Wedding</div>
-    </div>
+    <!-- Pre & Post Wedding -->
+    <a href="javascript:void(0);" onclick="document.getElementById('prepost-gallery').classList.toggle('hidden')">
+      <div class="bg-white rounded-xl shadow-lg overflow-hidden group hover:shadow-2xl transform hover:-translate-y-2 transition-transform duration-300">
+        <img src="https://raw.githubusercontent.com/Mohanakarthick2001/pre-and-post-thumbnail/main/pre%20post%20thumbnail.jpg" 
+             alt="Pre & Post Wedding" 
+             class="w-full h-48 object-cover transition-transform duration-300 transform group-hover:scale-110">
+        <div class="p-4 text-center font-semibold text-lg text-gray-700">Pre & Post Wedding</div>
+      </div>
+    </a>
 
-    <!-- Maternity Thumbnail -->
-    <div class="bg-white rounded-xl shadow-lg overflow-hidden group hover:shadow-2xl transform hover:-translate-y-2 transition-transform duration-300">
-      <img src="https://raw.githubusercontent.com/Mohanakarthick2001/maternity-thumbnail/main/Maternity%20thumb.jpg" 
-           alt="Maternity Shoots" 
-           class="w-full h-48 object-cover transition-transform duration-300 transform group-hover:scale-110">
-      <div class="p-4 text-center font-semibold text-lg text-gray-700">Maternity Shoots</div>
-    </div>
+    <!-- Maternity -->
+    <a href="javascript:void(0);" onclick="document.getElementById('maternity-gallery').classList.toggle('hidden')">
+      <div class="bg-white rounded-xl shadow-lg overflow-hidden group hover:shadow-2xl transform hover:-translate-y-2 transition-transform duration-300">
+        <img src="https://raw.githubusercontent.com/Mohanakarthick2001/maternity-thumbnail/main/Maternity%20thumb.jpg" 
+             alt="Maternity" 
+             class="w-full h-48 object-cover transition-transform duration-300 transform group-hover:scale-110">
+        <div class="p-4 text-center font-semibold text-lg text-gray-700">Maternity Shoots</div>
+      </div>
+    </a>
 
-    <!-- Engagement Thumbnail -->
-    <div class="bg-white rounded-xl shadow-lg overflow-hidden group hover:shadow-2xl transform hover:-translate-y-2 transition-transform duration-300">
-      <img src="https://raw.githubusercontent.com/Mohanakarthick2001/engagement-thumbnail/main/engagement%20thumbnail.jpg" 
-           alt="Engagement Photography" 
-           class="w-full h-48 object-cover transition-transform duration-300 transform group-hover:scale-110">
-      <div class="p-4 text-center font-semibold text-lg text-gray-700">Engagement Photography</div>
-    </div>
+    <!-- Engagement -->
+    <a href="javascript:void(0);" onclick="document.getElementById('engagement-gallery').classList.toggle('hidden')">
+      <div class="bg-white rounded-xl shadow-lg overflow-hidden group hover:shadow-2xl transform hover:-translate-y-2 transition-transform duration-300">
+        <img src="https://raw.githubusercontent.com/Mohanakarthick2001/engagement-thumbnail/main/engagement%20thumbnail.jpg" 
+             alt="Engagement" 
+             class="w-full h-48 object-cover transition-transform duration-300 transform group-hover:scale-110">
+        <div class="p-4 text-center font-semibold text-lg text-gray-700">Engagement Photography</div>
+      </div>
+    </a>
 
-    <!-- Birthday Thumbnail -->
-    <div class="bg-white rounded-xl shadow-lg overflow-hidden group hover:shadow-2xl transform hover:-translate-y-2 transition-transform duration-300">
-      <img src="https://raw.githubusercontent.com/Mohanakarthick2001/birthday-thumbanil/main/birthday%20thumbnail.jpg" 
-           alt="Birthday Shoots" 
-           class="w-full h-48 object-cover transition-transform duration-300 transform group-hover:scale-110">
-      <div class="p-4 text-center font-semibold text-lg text-gray-700">Birthday Shoots</div>
-    </div>
-
-    <!-- Models & Collaborations Thumbnail -->
-    <div class="bg-white rounded-xl shadow-lg overflow-hidden group hover:shadow-2xl transform hover:-translate-y-2 transition-transform duration-300">
-      <img src="https://placehold.co/600x400/6b46c1/ffffff?text=Models+and+Collaborations" 
-           alt="Models and Collaborations" 
-           class="w-full h-48 object-cover transition-transform duration-300 transform group-hover:scale-110">
-      <div class="p-4 text-center font-semibold text-lg text-gray-700">Models & Collaborations</div>
-    </div>
+    <!-- Birthday -->
+    <a href="javascript:void(0);" onclick="document.getElementById('birthday-gallery').classList.toggle('hidden')">
+      <div class="bg-white rounded-xl shadow-lg overflow-hidden group hover:shadow-2xl transform hover:-translate-y-2 transition-transform duration-300">
+        <img src="https://raw.githubusercontent.com/Mohanakarthick2001/birthday-thumbanil/main/birthday%20thumbnail.jpg" 
+             alt="Birthday" 
+             class="w-full h-48 object-cover transition-transform duration-300 transform group-hover:scale-110">
+        <div class="p-4 text-center font-semibold text-lg text-gray-700">Birthday Shoots</div>
+      </div>
+    </a>
 
   </div>
-</section>
 
-<!-- Full Wedding Photography Gallery -->
-<section id="wedding-gallery" class="mb-20">
-  <h2 class="text-4xl font-bold text-center text-gray-900 mb-10">Wedding Photography Full Gallery</h2>
-  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+  <!-- Expanded Galleries -->
+
+  <!-- Wedding Gallery -->
+  <div id="wedding-gallery" class="hidden mt-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
     <img src="https://raw.githubusercontent.com/Mohanakarthick2001/wedding-photography/main/3.webp" class="w-full h-48 object-cover rounded-xl shadow-lg">
     <img src="https://raw.githubusercontent.com/Mohanakarthick2001/wedding-photography/main/4.webp" class="w-full h-48 object-cover rounded-xl shadow-lg">
     <img src="https://raw.githubusercontent.com/Mohanakarthick2001/wedding-photography/main/5.webp" class="w-full h-48 object-cover rounded-xl shadow-lg">
@@ -168,6 +168,27 @@
     <img src="https://raw.githubusercontent.com/Mohanakarthick2001/wedding-photography/main/If%20I%20had%20a%20flower%20for%20every%20time%20I%20thought%20of%20you...I%20could%20walk%20through%20my%20garden%20forever%20%E2%9D%A4%EF%B8%8F%F0%9F%AA%84_._._._._Couples%20_%20_yogesh.appu7%20_pavi_vivap_Shoot%20By_6.webp" class="w-full h-48 object-cover rounded-xl shadow-lg">
     <img src="https://raw.githubusercontent.com/Mohanakarthick2001/wedding-photography/main/If%20I%20had%20a%20flower%20for%20every%20time%20I%20thought%20of%20you...I%20could%20walk%20through%20my%20garden%20forever%20%E2%9D%A4%EF%B8%8F%F0%9F%AA%84_._._._._Couples%20_%20_yogesh.appu7%20_pavi_vivap_Shoot%20By_7.webp" class="w-full h-48 object-cover rounded-xl shadow-lg">
   </div>
+
+  <!-- Pre & Post Gallery -->
+  <div id="prepost-gallery" class="hidden mt-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+    <img src="https://raw.githubusercontent.com/Mohanakarthick2001/pre-and-post-thumbnail/main/pre%20post%20thumbnail.jpg" class="w-full h-48 object-cover rounded-xl shadow-lg">
+  </div>
+
+  <!-- Maternity Gallery -->
+  <div id="maternity-gallery" class="hidden mt-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+    <img src="https://raw.githubusercontent.com/Mohanakarthick2001/maternity-thumbnail/main/Maternity%20thumb.jpg" class="w-full h-48 object-cover rounded-xl shadow-lg">
+  </div>
+
+  <!-- Engagement Gallery -->
+  <div id="engagement-gallery" class="hidden mt-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+    <img src="https://raw.githubusercontent.com/Mohanakarthick2001/engagement-thumbnail/main/engagement%20thumbnail.jpg" class="w-full h-48 object-cover rounded-xl shadow-lg">
+  </div>
+
+  <!-- Birthday Gallery -->
+  <div id="birthday-gallery" class="hidden mt-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+    <img src="https://raw.githubusercontent.com/Mohanakarthick2001/birthday-thumbanil/main/birthday%20thumbnail.jpg" class="w-full h-48 object-cover rounded-xl shadow-lg">
+  </div>
+
 </section>
 
     <!-- Contact Section -->

@@ -8,10 +8,13 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-  <link rel="icon" type="image/jpeg"
-      href="https://raw.githubusercontent.com/Mohanakarthick2001/LOGONEWMK/main/MK%20LOGO.jpg" />
+  <link rel="icon" type="image/jpeg" href="https://raw.githubusercontent.com/Mohanakarthick2001/LOGONEWMK/main/MK%20LOGO.jpg" />
   <style>
-    body { font-family: 'Inter', sans-serif; background-color: #f7fafc; }
+    body { 
+      font-family: 'Inter', sans-serif; 
+      background: linear-gradient(135deg, #fef3f7 0%, #f0f9ff 100%);
+      background-attachment: fixed;
+    }
     .text-shadow { text-shadow: 2px 2px 4px rgba(0,0,0,0.5); }
   </style>
 </head>
@@ -21,11 +24,11 @@
 <header class="bg-white shadow-md sticky top-0 z-50">
   <div class="container mx-auto px-6 py-4 flex justify-between items-center">
     <a href="#" class="flex items-center">
-  <img src="https://raw.githubusercontent.com/Mohanakarthick2001/LOGONEWMK/main/MK%20LOGO.jpg"
-       alt="MK Studios Logo"
-       class="h-12 w-auto mr-2">
-  <span class="text-3xl font-bold text-gray-800 tracking-tight">MK Studios</span>
-</a>
+      <img src="https://raw.githubusercontent.com/Mohanakarthick2001/LOGONEWMK/main/MK%20LOGO.jpg"
+           alt="MK Studios Logo"
+           class="h-12 w-auto mr-2">
+      <span class="text-3xl font-bold text-gray-800 tracking-tight">MK Studios</span>
+    </a>
     <nav class="hidden md:flex space-x-6">
       <a href="#about" class="text-gray-600 hover:text-gray-900 transition-colors duration-300">About</a>
       <a href="#gallery" class="text-gray-600 hover:text-gray-900 transition-colors duration-300">Gallery</a>
@@ -49,12 +52,12 @@
   <!-- Hero Section -->
   <section class="mb-20">
     <div class="relative bg-cover bg-center rounded-3xl shadow-xl overflow-hidden h-screen"
-      style="background-image: url('https://raw.githubusercontent.com/Mohanakarthick2001/Profiletemp/main/profile%20temp.jpg');">
-      <div class="absolute inset-0 bg-black bg-opacity-40 flex flex-col items-center justify-center text-center px-4">
+         style="background-image: linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url('https://raw.githubusercontent.com/Mohanakarthick2001/Profiletemp/main/profile%20temp.jpg'); background-blend-mode: overlay;">
+      <div class="absolute inset-0 flex flex-col items-center justify-center text-center px-4">
         <h1 class="text-5xl md:text-7xl font-bold text-white text-shadow leading-tight mb-6">
           Wedding & Candid Photography <br> for Your Special Day.
         </h1>
-        <a href="#contact" class="bg-blue-600 text-white font-semibold py-4 px-8 rounded-xl shadow-lg hover:bg-blue-700 transition-all duration-300">
+        <a href="#contact" class="bg-gradient-to-r from-pink-500 via-red-500 to-yellow-400 text-white font-semibold py-4 px-8 rounded-xl shadow-lg hover:opacity-90 transition-all duration-300">
           Book Now
         </a>
         <div class="absolute bottom-8 animate-bounce">
@@ -86,7 +89,7 @@
   </section>
 
   <!-- Gallery Section -->
-  <section id="gallery" class="mb-20">
+  <section id="gallery" class="mb-20 bg-gradient-to-r from-pink-50 via-purple-50 to-blue-50 p-8 rounded-3xl shadow-xl">
     <h2 class="text-4xl font-bold text-center text-gray-900 mb-10">Wedding & Candid Portfolio</h2>
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
 
@@ -136,15 +139,15 @@
 
       <!-- Birthday Thumbnail -->
       <a href="birthday-gallery.html">
-  <div class="bg-white rounded-xl shadow-lg overflow-hidden group hover:shadow-2xl transform hover:-translate-y-2 transition-transform duration-300">
-    <div class="w-full h-48 bg-gray-100 flex items-center justify-center">
-      <img src="https://raw.githubusercontent.com/Mohanakarthick2001/birthday-thumbanil/main/birthday%20thumbnail.jpg" 
-           alt="Birthday Photography" 
-           class="max-h-full max-w-full object-contain transition-transform duration-300 transform group-hover:scale-105">
-    </div>
-    <div class="p-4 text-center font-semibold text-lg text-gray-700">Birthday Photography</div>
-  </div>
-</a>
+        <div class="bg-white rounded-xl shadow-lg overflow-hidden group hover:shadow-2xl transform hover:-translate-y-2 transition-transform duration-300">
+          <div class="w-full h-48 bg-gray-100 flex items-center justify-center">
+            <img src="https://raw.githubusercontent.com/Mohanakarthick2001/birthday-thumbanil/main/birthday%20thumbnail.jpg" 
+                 alt="Birthday Photography" 
+                 class="max-h-full max-w-full object-contain transition-transform duration-300 transform group-hover:scale-105">
+          </div>
+          <div class="p-4 text-center font-semibold text-lg text-gray-700">Birthday Photography</div>
+        </div>
+      </a>
 
     </div>
   </section>
@@ -167,7 +170,7 @@
       <textarea placeholder="Your Message" rows="5"
         class="w-full p-4 rounded-xl border border-gray-300 focus:ring-2 focus:ring-blue-500 transition-all duration-300"></textarea>
       <button type="submit"
-        class="w-full bg-blue-600 text-white font-semibold py-4 rounded-xl shadow-md hover:bg-blue-700 transition-colors duration-300">Send Message</button>
+        class="w-full bg-gradient-to-r from-pink-500 via-red-500 to-yellow-400 text-white font-semibold py-4 rounded-xl shadow-md hover:opacity-90 transition-all duration-300">Send Message</button>
     </form>
   </section>
 

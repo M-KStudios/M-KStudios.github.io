@@ -8,35 +8,45 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/jpeg"
+      href="https://raw.githubusercontent.com/Mohanakarthick2001/LOGONEWMK/main/MK%20LOGO.jpg" />
   <style>
-    body { font-family: 'Inter', sans-serif; background-color: #f7fafc; }
-    .text-shadow { text-shadow: 2px 2px 4px rgba(0,0,0,0.5); }
-  </style>
+  body { 
+    font-family: 'Inter', sans-serif; 
+    /* Lighter elegant background gradient */
+    background: linear-gradient(135deg, #3a3a5e, #4e5a8c, #6a7bbc); 
+    color: #f0f0f0;
+  }
+  .text-shadow { text-shadow: 2px 2px 4px rgba(0,0,0,0.5); }
+</style>
+
 </head>
-<body class="bg-gray-100 text-gray-800">
+<body class="text-gray-100">
 
 <!-- Header -->
-<header class="bg-white shadow-md sticky top-0 z-50">
+<header class="bg-gray-900 bg-opacity-80 shadow-md sticky top-0 z-50">
   <div class="container mx-auto px-6 py-4 flex justify-between items-center">
     <a href="#" class="flex items-center">
-      <img src="https://raw.githubusercontent.com/Mohanakarthick2001/my-logo/main/Logo.jpg" alt="MK Studios Logo" class="h-12 w-auto mr-2">
-      <span class="text-3xl font-bold text-gray-800 tracking-tight">MK Studios</span>
+      <img src="https://raw.githubusercontent.com/Mohanakarthick2001/LOGONEWMK/main/MK%20LOGO.jpg"
+           alt="MK Studios Logo"
+           class="h-12 w-auto mr-2">
+      <span class="text-3xl font-bold text-white tracking-tight">MK Studios</span>
     </a>
     <nav class="hidden md:flex space-x-6">
-      <a href="#about" class="text-gray-600 hover:text-gray-900 transition-colors duration-300">About</a>
-      <a href="#gallery" class="text-gray-600 hover:text-gray-900 transition-colors duration-300">Gallery</a>
-      <a href="#contact" class="text-gray-600 hover:text-gray-900 transition-colors duration-300">Contact</a>
+      <a href="#about" class="text-gray-300 hover:text-white transition-colors duration-300">About</a>
+      <a href="#gallery" class="text-gray-300 hover:text-white transition-colors duration-300">Gallery</a>
+      <a href="#contact" class="text-gray-300 hover:text-white transition-colors duration-300">Contact</a>
     </nav>
-    <button id="menu-button" class="md:hidden text-gray-600 hover:text-gray-900 focus:outline-none">
-      <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <button id="menu-button" class="md:hidden text-gray-300 hover:text-white focus:outline-none">
+      <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
       </svg>
     </button>
   </div>
-  <div id="mobile-menu" class="hidden md:hidden bg-white shadow-lg py-2">
-    <a href="#about" class="block px-4 py-2 text-gray-600 hover:bg-gray-100">About</a>
-    <a href="#gallery" class="block px-4 py-2 text-gray-600 hover:bg-gray-100">Gallery</a>
-    <a href="#contact" class="block px-4 py-2 text-gray-600 hover:bg-gray-100">Contact</a>
+  <div id="mobile-menu" class="hidden md:hidden bg-gray-900 bg-opacity-90 shadow-lg py-2">
+    <a href="#about" class="block px-4 py-2 text-gray-300 hover:bg-gray-700">About</a>
+    <a href="#gallery" class="block px-4 py-2 text-gray-300 hover:bg-gray-700">Gallery</a>
+    <a href="#contact" class="block px-4 py-2 text-gray-300 hover:bg-gray-700">Contact</a>
   </div>
 </header>
 
@@ -46,7 +56,7 @@
   <section class="mb-20">
     <div class="relative bg-cover bg-center rounded-3xl shadow-xl overflow-hidden h-screen"
       style="background-image: url('https://raw.githubusercontent.com/Mohanakarthick2001/Profiletemp/main/profile%20temp.jpg');">
-      <div class="absolute inset-0 bg-black bg-opacity-40 flex flex-col items-center justify-center text-center px-4">
+      <div class="absolute inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center text-center px-4">
         <h1 class="text-5xl md:text-7xl font-bold text-white text-shadow leading-tight mb-6">
           Wedding & Candid Photography <br> for Your Special Day.
         </h1>
@@ -66,15 +76,15 @@
 
   <!-- About Section -->
   <section id="about" class="mb-20">
-    <div class="bg-white rounded-3xl shadow-xl p-10 md:p-16 flex flex-col md:flex-row items-center space-y-8 md:space-y-0 md:space-x-12">
+    <div class="bg-gray-800 bg-opacity-80 rounded-3xl shadow-xl p-10 md:p-16 flex flex-col md:flex-row items-center space-y-8 md:space-y-0 md:space-x-12">
       <div class="w-full md:w-1/3">
         <img src="https://raw.githubusercontent.com/Mohanakarthick2001/mkprofile/main/photo.jpg" 
              alt="Profile of Mohanakarthick"
              class="rounded-full shadow-lg border-4 border-blue-500 mx-auto md:mx-0">
       </div>
       <div class="w-full md:w-2/3 text-center md:text-left">
-        <h2 class="text-4xl font-bold text-gray-900 mb-4">About Mohanakarthick</h2>
-        <p class="text-lg text-gray-600 leading-relaxed">
+        <h2 class="text-4xl font-bold text-white mb-4">About Mohanakarthick</h2>
+        <p class="text-lg text-gray-300 leading-relaxed">
           I am Mohanakarthick, the founder of MK Studios. As a passionate wedding and candid photographer, my mission is to capture the genuine emotions and fleeting moments that make your story unique. I specialize in creating stunning, heartfelt images that you'll cherish forever. Beyond the lens, I'm also a skilled photo editor, dedicated to bringing out the best in every shot to deliver a truly beautiful final product.
         </p>
       </div>
@@ -83,13 +93,13 @@
 
   <!-- Gallery Section -->
   <section id="gallery" class="mb-20">
-    <h2 class="text-4xl font-bold text-center text-gray-900 mb-10">Wedding & Candid Portfolio</h2>
+    <h2 class="text-4xl font-bold text-center text-white mb-10">Wedding & Candid Portfolio</h2>
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
 
-      <!-- Wedding Photography Thumbnail -->
+      <!-- Wedding Thumbnail -->
       <a href="wedding-gallery.html">
-        <div class="bg-white rounded-xl shadow-lg overflow-hidden group hover:shadow-2xl transform hover:-translate-y-2 transition-transform duration-300">
-          <div class="w-full h-48 bg-gray-100 flex items-center justify-center">
+        <div class="bg-gradient-to-br from-pink-50 via-purple-50 to-blue-50 rounded-xl shadow-lg overflow-hidden group hover:shadow-2xl transform hover:-translate-y-2 transition-transform duration-300">
+          <div class="w-full h-48 flex items-center justify-center">
             <img src="https://raw.githubusercontent.com/Mohanakarthick2001/wedding-thumbnail/main/Wedding.jpg" 
                  alt="Wedding Photography" 
                  class="max-h-full max-w-full object-contain transition-transform duration-300 transform group-hover:scale-105">
@@ -100,8 +110,8 @@
 
       <!-- Pre & Post Thumbnail -->
       <a href="pre-post-gallery.html">
-        <div class="bg-white rounded-xl shadow-lg overflow-hidden group hover:shadow-2xl transform hover:-translate-y-2 transition-transform duration-300">
-          <div class="w-full h-48 bg-gray-100 flex items-center justify-center">
+        <div class="bg-gradient-to-br from-pink-50 via-purple-50 to-blue-50 rounded-xl shadow-lg overflow-hidden group hover:shadow-2xl transform hover:-translate-y-2 transition-transform duration-300">
+          <div class="w-full h-48 flex items-center justify-center">
             <img src="https://raw.githubusercontent.com/Mohanakarthick2001/pre-and-post-thumbnail/main/pre%20post%20thumbnail.jpg" 
                  alt="Pre & Post Wedding" 
                  class="max-h-full max-w-full object-contain transition-transform duration-300 transform group-hover:scale-105">
@@ -111,8 +121,8 @@
       </a>
 
       <!-- Maternity Thumbnail -->
-      <div class="bg-white rounded-xl shadow-lg overflow-hidden group hover:shadow-2xl transform hover:-translate-y-2 transition-transform duration-300">
-        <div class="w-full h-48 bg-gray-100 flex items-center justify-center">
+      <div class="bg-gradient-to-br from-pink-50 via-purple-50 to-blue-50 rounded-xl shadow-lg overflow-hidden group hover:shadow-2xl transform hover:-translate-y-2 transition-transform duration-300">
+        <div class="w-full h-48 flex items-center justify-center">
           <img src="https://raw.githubusercontent.com/Mohanakarthick2001/maternity-thumbnail/main/Maternity%20thumb.jpg" 
                alt="Maternity Shoots" 
                class="max-h-full max-w-full object-contain transition-transform duration-300 transform group-hover:scale-105">
@@ -121,8 +131,8 @@
       </div>
 
       <!-- Engagement Thumbnail -->
-      <div class="bg-white rounded-xl shadow-lg overflow-hidden group hover:shadow-2xl transform hover:-translate-y-2 transition-transform duration-300">
-        <div class="w-full h-48 bg-gray-100 flex items-center justify-center">
+      <div class="bg-gradient-to-br from-pink-50 via-purple-50 to-blue-50 rounded-xl shadow-lg overflow-hidden group hover:shadow-2xl transform hover:-translate-y-2 transition-transform duration-300">
+        <div class="w-full h-48 flex items-center justify-center">
           <img src="https://raw.githubusercontent.com/Mohanakarthick2001/engagement-thumbnail/main/engagement%20thumbnail.jpg" 
                alt="Engagement Photography" 
                class="max-h-full max-w-full object-contain transition-transform duration-300 transform group-hover:scale-105">
@@ -131,43 +141,46 @@
       </div>
 
       <!-- Birthday Thumbnail -->
-      <div class="bg-white rounded-xl shadow-lg overflow-hidden group hover:shadow-2xl transform hover:-translate-y-2 transition-transform duration-300">
-        <div class="w-full h-48 bg-gray-100 flex items-center justify-center">
-          <img src="https://raw.githubusercontent.com/Mohanakarthick2001/birthday-thumbanil/main/birthday%20thumbnail.jpg" 
-               alt="Birthday Shoots" 
-               class="max-h-full max-w-full object-contain transition-transform duration-300 transform group-hover:scale-105">
+      <a href="birthday-gallery.html">
+        <div class="bg-gradient-to-br from-pink-50 via-purple-50 to-blue-50 rounded-xl shadow-lg overflow-hidden group hover:shadow-2xl transform hover:-translate-y-2 transition-transform duration-300">
+          <div class="w-full h-48 flex items-center justify-center">
+            <img src="https://raw.githubusercontent.com/Mohanakarthick2001/birthday-thumbanil/main/birthday%20thumbnail.jpg" 
+                 alt="Birthday Photography" 
+                 class="max-h-full max-w-full object-contain transition-transform duration-300 transform group-hover:scale-105">
+          </div>
+          <div class="p-4 text-center font-semibold text-lg text-gray-700">Birthday Photography</div>
         </div>
-        <div class="p-4 text-center font-semibold text-lg text-gray-700">Birthday Shoots</div>
-      </div>
+      </a>
 
     </div>
   </section>
 
-  <!-- Contact Section -->
-  <section id="contact" class="bg-white rounded-3xl shadow-xl p-10 md:p-16 text-center">
-    <h2 class="text-4xl font-bold text-gray-900 mb-6">Let's Connect</h2>
-    <p class="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
-      Interested in a collaboration or a custom photography session? I'd love to hear from you. Please fill out the form below or reach out via social media.
-    </p>
-    <div class="mb-8 text-lg text-gray-700 space-y-2">
-      <p><strong>Email:</strong> amk8015218386@gmail.com</p>
-      <p><strong>Phone:</strong> 9597684496</p>
-    </div>
-    <form action="#" class="max-w-xl mx-auto space-y-6">
-      <input type="text" placeholder="Your Name"
-        class="w-full p-4 rounded-xl border border-gray-300 focus:ring-2 focus:ring-blue-500 transition-all duration-300">
-      <input type="email" placeholder="Your Email"
-        class="w-full p-4 rounded-xl border border-gray-300 focus:ring-2 focus:ring-blue-500 transition-all duration-300">
-      <textarea placeholder="Your Message" rows="5"
-        class="w-full p-4 rounded-xl border border-gray-300 focus:ring-2 focus:ring-blue-500 transition-all duration-300"></textarea>
-      <button type="submit"
-        class="w-full bg-blue-600 text-white font-semibold py-4 rounded-xl shadow-md hover:bg-blue-700 transition-colors duration-300">Send Message</button>
-    </form>
-  </section>
-
+ <!-- Contact Section -->
+<section id="contact" class="rounded-3xl shadow-xl p-10 md:p-16 text-center"
+  style="background: linear-gradient(135deg, #ffe5ec, #ffd6f0, #ffe0b2); color: #1a1a2e;">
+  <h2 class="text-4xl font-bold mb-6">Let's Connect</h2>
+  <p class="text-lg mb-8 max-w-2xl mx-auto">
+    Interested in a collaboration or a custom photography session? I'd love to hear from you. Please fill out the form below or reach out via social media.
+  </p>
+  <div class="mb-8 text-lg space-y-2">
+    <p><strong>Email:</strong> amk8015218386@gmail.com</p>
+    <p><strong>Phone:</strong> 9597684496</p>
+  </div>
+  <form action="#" class="max-w-xl mx-auto space-y-6">
+    <input type="text" placeholder="Your Name"
+      class="w-full p-4 rounded-xl border border-gray-300 focus:ring-2 focus:ring-pink-300 transition-all duration-300">
+    <input type="email" placeholder="Your Email"
+      class="w-full p-4 rounded-xl border border-gray-300 focus:ring-2 focus:ring-pink-300 transition-all duration-300">
+    <textarea placeholder="Your Message" rows="5"
+      class="w-full p-4 rounded-xl border border-gray-300 focus:ring-2 focus:ring-pink-300 transition-all duration-300"></textarea>
+    <button type="submit"
+      class="w-full bg-gradient-to-r from-pink-300 via-pink-200 to-yellow-200 text-white font-semibold py-4 rounded-xl shadow-md hover:opacity-90 transition-all duration-300">Send Message</button>
+  </form>
+</section>
+  
 </main>
 
-<footer class="bg-gray-800 text-gray-300 py-8">
+<footer class="bg-gray-900 bg-opacity-90 text-gray-300 py-8">
   <div class="container mx-auto text-center text-sm">
     <p>&copy; 2025 MK Studios. All rights reserved.</p>
   </div>
